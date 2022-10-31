@@ -40,9 +40,6 @@ function handleGuess(correctSpot, userGuess) {
     totalGuesses++;
     if (correctSpot === userGuess) {
         correctGuesses++;
-        totalGuesses++;
-    } else {
-        totalGuesses++;
     }
     if (correctSpot === 'shed') {
         shedContainer.classList.add('face');
